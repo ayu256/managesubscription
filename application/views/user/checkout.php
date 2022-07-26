@@ -32,25 +32,7 @@
             </div>
               <!-- We'll put the error messages in this element -->
             <div id="card-errors" role="alert"></div>
-
-            <!-- <div class="form-group col-md-6">
-                <label class="form-label">CARD NUMBER</label>
-                <div id="card_number" class="form-control"></div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                        <label class="form-label">EXPIRY DATE</label>
-                        <div id="card_expiry" class="form-control"></div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                <div class="form-group">
-                    <label class="form-label">CVC CODE</label>
-                    <div id="card_cvc" class="form-control"></div>
-                </div>
-            </div> -->
             
-            <!-- <button type="submit" class="btn btn-success mt-4" id="payBtn">Submit Payment</button> -->
             <button id="submit" type="submit" class="btn btn-success mt-4">Submit Payment</button>
 
         </div>
@@ -89,8 +71,8 @@
     });
 
 // Create a token or display an error when the form is submitted.
-// Create a token or display an error when the form is submitted.
 var form = document.getElementById('payment-form');
+
 form.addEventListener('submit', function(event) {
   event.preventDefault();
 

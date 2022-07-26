@@ -17,7 +17,6 @@
             </div>
             <div class="card-footer">
                <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="<?= base_url();?>dashboard/checkout?planid=<?= $plan['id']?>&price=<?= $plan['default_price']?>&amount=<?= $plan['actual_price']?>">Pay Now</a> 
-              
             </div>
           </div>
         </div>

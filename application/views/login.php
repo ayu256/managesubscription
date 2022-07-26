@@ -27,7 +27,7 @@
     <!-- Login Form -->
     <form action="<?php echo base_url();?>Auth/login" method="post">
       <input type="text" id="login" class="fadeIn second" name="email" placeholder="Email">
-      <input type="text" id="password" class="fadeIn third" name="password" placeholder="Password">
+      <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
      
       <div class="row ">
           <div class="col-12">

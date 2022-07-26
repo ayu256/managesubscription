@@ -14,4 +14,9 @@ class User_model extends CI_Model {
       return $this->db->insert_id();
     }
 	
+    public function insert_subscription($post)
+    {
+      $this->db->insert('user_subscriptions',$post);
+      return $this->db->insert_id();
+    }
 }
